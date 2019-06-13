@@ -1,0 +1,72 @@
+body{
+    background-image: url(../history-buffs/images/title-back.png);
+}
+#titleCont{
+    background-image: linear-gradient(rgb(77, 19, 19), rgb(27, 3, 3));
+    height: 150px;
+    margin-bottom: 10px;
+}
+#mainTitle{
+    font-family: 'Courgette', cursive;
+    font-size: 64px;
+    font-weight: 600;
+    color: white;
+    text-shadow: -3px 4px black;
+    margin-top: 25px;
+}
+#contHeader{
+    background-image: linear-gradient(rgb(87, 16, 16), rgb(68, 10, 10));
+}
+.card{
+    border: 0;
+    color: white;
+    background: rgba(0, 0, 0, 0.637);
+}
+.searchTitle{
+    font-family: 'Courgette', cursive;
+    text-shadow: -3px 4px black;
+    font-weight: 500;
+    color: white;
+}
+#eraHeader{
+    font-family: 'Courgette', cursive;
+    font-size: 36px;
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+    radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+    text-shadow: -3px 4px black;
+    font-weight: 500;
+    color: white;  
+}
+.subTitle{
+    background-image: linear-gradient(rgb(82, 80, 80), rgb(58, 57, 57));
+    padding: 5px;
+    padding-bottom: 7px;
+    color: #FFFFAC;
+    margin-bottom: 0;  
+}
+.book{
+    background-image: url(../history-buffs/images/subBack.png);
+    border-top: 5px solid rgb(107, 33, 33);
+    border-bottom: 5px solid rgb(107, 33, 33);
+}
+.mb-0{
+    background: rgba(82, 80, 80, 0.76);
+    width: 100%;
+    border-radius: 10px;
+}
+.btn{
+    color: white;
+}
+#featured,
+#today{
+    margin-bottom: 10px;
+}
+#caroFeat,
+#caroToday{
+    width: 100%;
+    height: 300px;
+}
+@media only screen and (min-width: 1200px) {
+    .carousel-control-next{right:65px;}
+}
+
